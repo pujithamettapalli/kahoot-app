@@ -16,21 +16,12 @@ import learnImage from "./assets/learn.png";
 function App() {
   return (
     <div className="app">
-
-      {/* NAVBAR */}
       <Navbar />
-
-      {/* HERO */}
       <Hero />
-
-      {/* INTRO */}
       <section className="intro-section">
-        
-
         <h2>
           One app. Create, host, play, and learn.
         </h2>
-
         <p>
           Whether you're a teacher building lessons, a student turning notes
           into a study tool, or a friend who takes quiz night a little too
@@ -38,10 +29,7 @@ function App() {
           on any device, anywhere. Free to download and free to get started.
         </p>
       </section>
-
-      {/* FEATURES */}
       <section className="features">
-       {/* CREATE */}
 <Feature
   title="Create"
   heading="Build a quiz on anything"
@@ -49,16 +37,12 @@ function App() {
   image={createImage}
   reverse
 />
-
-{/* HOST */}
 <Feature
   title="Host"
   heading="Run a live game with your group"
   description="Share a PIN and watch your players join in real time. Host a Kahoot game wherever your group is."
   image={hostImage}
 />
-
-{/* PLAY */}
 <Feature
   title="Play"
   heading="Join any game instantly"
@@ -66,8 +50,6 @@ function App() {
   image={playImage}
   reverse
 />
-
-{/* LEARN */}
 <Feature
   title="Learn"
   heading="Turn any content into a game"
@@ -77,21 +59,12 @@ function App() {
        
 
       </section>
-
-      {/* DOWNLOAD */}
       <Download />
-
-      {/* KIDS */}
       <Kids />
-
-      {/* FAQ */}
       <FAQ />
       <Occasions/>
-      {/* FOOTER */}
       <Footer />
-
     </div>
   );
 }
-
 export default App;
